@@ -1,8 +1,8 @@
-const findUp = require('find-up')
-const fs = require('fs')
+const findUp = require('find-up');
+const fs = require('fs');
 const logging = require('../../logging');
 const axios = require('axios');
-const configPath = findUp.sync(['config.json'])
+const configPath = findUp.sync(['config.json', './src/config.json']);
 
 exports.command = 'models [out-dir]'
 exports.desc = 'Generate base-models from swagger.json'

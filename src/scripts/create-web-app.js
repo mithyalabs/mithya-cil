@@ -18,7 +18,7 @@ const logging = require('../logging')
 
 module.exports = (appName) => {
     // const appName = await getProjectName();
-    logging.successLog("Creating Web Project: ", appName);
+    logging.successLog("Creating new web project");
     var child = spawn('npx', [
         'create-react-app', appName,
         '--template', 'mithyalabs'
