@@ -1,0 +1,28 @@
+{
+  "name": "mithya-web-cli",
+  "version": "1.0.0",
+  "description": "CLI for automating boring tasks in Web development",
+  "main": "src/index.js",
+  "bin": {
+    "mithya": "src/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mithya",
+    "cli",
+    "mithya",
+    "web",
+    "cli"
+  ],
+  "author": "mukut",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "boxen": "^4.0.0",
+    "chalk": "^2.4.2",
+    "inquirer": "^7.3.3",
+    "yargs": "^13.2.4"
+  }
+}
